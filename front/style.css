@@ -1,0 +1,96 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+  background: #43cea2;
+  background: -webkit-linear-gradient(to left, #ce43c7 , #f88705);
+  background: linear-gradient(to left, #ce43c7 , #f88705);
+}
+
+h1 {
+  font-family:'Cambria';
+  text-align: center;
+  font-size: 60px;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  width: 500px;
+}
+
+.button {
+  background-color: #303030;
+  color: #50C8FF;
+  height: 20px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: #50C8FF;
+  color: #303030;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: #303030;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell_win {
+  height: 100px;
+  width: 100px;
+  background-color: #50C8FF;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  color: #FFF;
+  font-size: 35px;
+}
+
+.word {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.moves{
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+label {
+  white-space: nowrap;
+  margin-top: 1em;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1em;
+}
